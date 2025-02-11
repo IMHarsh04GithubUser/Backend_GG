@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb://localhost:27017/RestaurantApp", {})
+  .connect("mongodb+srv://powerharsh2004:KBatm5W8kXmthKny@cluster0.ka8un.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {})
   .then(() => console.log("MongoDB Started"))
   .catch((err) => console.log(err));
 
